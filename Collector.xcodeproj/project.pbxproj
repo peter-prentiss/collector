@@ -13,6 +13,9 @@
 		8435687F1FBA9C09000A451F /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8435687D1FBA9C09000A451F /* Collector.xcdatamodeld */; };
 		843568811FBA9C09000A451F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843568801FBA9C09000A451F /* Assets.xcassets */; };
 		843568841FBA9C09000A451F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843568821FBA9C09000A451F /* LaunchScreen.storyboard */; };
+		8435688C1FBAA5FE000A451F /* camera-2185357_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 8435688B1FBAA5FD000A451F /* camera-2185357_640.png */; };
+		8435688E1FBAA76A000A451F /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435688D1FBAA76A000A451F /* AddItemViewController.swift */; };
+		843568901FBAA869000A451F /* CollectorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435688F1FBAA869000A451F /* CollectorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		843568801FBA9C09000A451F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843568831FBA9C09000A451F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843568851FBA9C09000A451F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8435688B1FBAA5FD000A451F /* camera-2185357_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-2185357_640.png"; path = "../../../../Downloads/camera-2185357_640.png"; sourceTree = "<group>"; };
+		8435688D1FBAA76A000A451F /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		8435688F1FBAA869000A451F /* CollectorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				843568761FBA9C09000A451F /* AppDelegate.swift */,
 				843568781FBA9C09000A451F /* ViewController.swift */,
 				8435687A1FBA9C09000A451F /* Main.storyboard */,
+				8435688F1FBAA869000A451F /* CollectorTableViewController.swift */,
+				8435688D1FBAA76A000A451F /* AddItemViewController.swift */,
 				843568801FBA9C09000A451F /* Assets.xcassets */,
+				8435688B1FBAA5FD000A451F /* camera-2185357_640.png */,
 				843568821FBA9C09000A451F /* LaunchScreen.storyboard */,
 				843568851FBA9C09000A451F /* Info.plist */,
 				8435687D1FBA9C09000A451F /* Collector.xcdatamodeld */,
@@ -129,6 +138,7 @@
 				843568841FBA9C09000A451F /* LaunchScreen.storyboard in Resources */,
 				843568811FBA9C09000A451F /* Assets.xcassets in Resources */,
 				8435687C1FBA9C09000A451F /* Main.storyboard in Resources */,
+				8435688C1FBAA5FE000A451F /* camera-2185357_640.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8435687F1FBA9C09000A451F /* Collector.xcdatamodeld in Sources */,
+				8435688E1FBAA76A000A451F /* AddItemViewController.swift in Sources */,
+				843568901FBAA869000A451F /* CollectorTableViewController.swift in Sources */,
 				843568791FBA9C09000A451F /* ViewController.swift in Sources */,
 				843568771FBA9C09000A451F /* AppDelegate.swift in Sources */,
 			);
